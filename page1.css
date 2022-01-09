@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+body {
+  font-family: 'Montserrat', 'Times New Roman', Times, serif;
+  background-color: white;
+}
+
+ul{
+  text-align: left;
+}
+
+
+.container {
+  text-align: center;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1{
+  font-size: 30px;
+}
+
+.subhead{
+  font-size: 20px;
+}
+
+.hide-desktop {
+  display: none;
+}
+
+#myInput {
+  display: inline-flex;
+  background-image: url('images/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  font-size: 20px;
+  padding: 12px 40px 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 12px; 
+}
+ 
+.flex-grid {
+  margin: 5em 1em 5em 1em;
+}
+
+.flex-grid div{
+  flex-direction: row;
+}
+
+.grid-titles, .grid-items{
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+border-bottom: 1px solid #29343d;
+border-top:  1px solid #29343d;
+border-radius: 3mm;
+margin-bottom: 1em;
+}
+.grid-titles div, .grid-items div {
+  padding: 10px;
+  flex-basis: 20%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-titles {
+  background-image: linear-gradient(45deg, #cccccc 0%, #0481B2 60%);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.view_details {
+width: 50px;
+}
+
+.hide-mobile {
+  display: none;
+}
+
+
+@media only screen and (max-width: 925px) {
+
+  
+  .flex-grid{
+    margin: -0.5em; 
+  }
+  .flex-grid div {
+    display: flex;
+    flex-flow: column;
+  }  
+
+  .show-mobile {
+    display: block;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+
+  .flex-container {
+    margin: 0 0 5em;
+  }
+
+  .grid-titles div {
+    display: none;
+  }
+
+  .grid-titles {
+    border: none;
+  }
+
+  .grid-items{
+    font-size: 16px;
+    height: calc(50vh - 100px);
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 300px;
+    border: none;
+    border-radius: 3mm;
+  }
+
+  .grid-education {
+    width: 100%;
+    background-image: url('images/4.jpg'); 
+    background-size: cover;
+    font-size: 100px;
+    font-weight: bold;
+    border-radius: 1em;
+    line-height: 5em;
+  }
+
+  .grid-poverty {
+    width: 100%;
+    background-image: url('images/.jpg');
+    background-size: cover;
+    background-position: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 1em;
+    line-height: 5em;
+  }
+
+  .grid-WaterandSanitation {
+    width: 100%;
+    background-image: url('images/.png');
+    background-size: cover;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 1em;
+    line-height: 5em;
+  }
+
+  .grid-Hunger {
+    width: 100%;
+    background-image: url('/images/.jpg');
+    background-size: cover;
+    background-position: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 1em;
+    line-height: 5em; 
+  }
+
+  span {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 350px) {
+
+  .grid-education {
+    font-size: 25px;
+  }
+
+  .grid-poverty {
+    font-size: 25px;
+  }
+
+  .grid-WaterandSanitation{
+    font-size: 25px;
+  }
+
+  .grid-hunger {
+    font-size: 25px;
+  }
+}
