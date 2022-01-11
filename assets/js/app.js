@@ -68,7 +68,7 @@ const gridItems = [
        <div>${gridItems[i].NumberOfAfectedPeople}</div>
        <div>${gridItems[i].PriorityRank}</div>
        <div>${gridItems[i].BriefDescription}</div>
-       <div><a href="page1.html#${gridItems[i].id}-2"><img src="images/view_details2-2.jpg.png"
+       <div><a href="global_issues.html#${gridItems[i].id}-2"><img src="assets/images/view_details2-2.jpg.png"
        alt="view_details" class="view_details"></div>
      </div>`;
       }

@@ -4,62 +4,16 @@ body {
   font-family: 'Montserrat', 'Times New Roman', Times, serif;
 }
 
-body {
-  width: 960px;
-  margin: 0px auto;
+ul{
+  list-style-type: none;
+}
+li {
+  margin: 0 10em 7em;
 }
 
-#logo, nav, .bannerBtn a, footer {
- font-family: 'Open Sans', sans-serif;
-}
-
-#logo {
-  color: #0481B2;
-}
-
-nav {
-  background-color: #0481B2;
-}
-
-nav ul {
+header {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-end;
-  align-content: stretch;
-  align-items: flex-start;
-}
-
-nav ul li {
- list-style: none;
- margin: 0px 5px;
- padding: 10px; 
- color: #73D7FF;
-}
-
-nav ul li:hover {
-/*   background-color: #efefef; */
-  background-color: #59D0FF;
-  color: #B26B1B;
-}
-
-#first {
-  margin-left: 0px;
-}
-
-.active {
-/*   background-color: #3f3f3f;
-  color: #fff; */
-  background-color: #FFB159;
-  color: #B26B1B;
-}
-
-nav ul li a {
-  text-decoration: none;
-}
-
-a{
-    text-decoration: none;
+  justify-content: space-between;
 }
 
 .education {
@@ -102,15 +56,13 @@ a{
   border: 1px solid black;
 }
 
+
 .go_back {
-  width: 50px;
+  width: 75px;
   margin-top: -5em;
 }
 
 @media only screen and (max-width: 925px) {
-  .logo{
-    width: 80px;
-  }
 
   li {
     margin: 0 1em 5em 0;
@@ -164,7 +116,6 @@ a{
     border: 1px solid black;
   }
 
-
   .go_back {
     width: 80px;
   }
@@ -197,7 +148,7 @@ a{
     border: 1px solid black;
   }
   
-  .hunger{
+  .hunger {
     float: none;
     width: 100%;
     margin-left: 0;
@@ -207,8 +158,8 @@ a{
 
   .climate_change {
     float: none;
-    width: 80%;
-    margin-left: 10%;
+    width: 100%;
+    margin-left: 0;
     padding: 0.2em;
     border: 1px solid black;
   }

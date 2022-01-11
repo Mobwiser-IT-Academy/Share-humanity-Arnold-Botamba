@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', 'Times New Roman', Times, serif;
+  background-color: white;
+}
+
+
+#logo, nav, .bannerBtn a, footer {
+  font-family: 'Open Sans', sans-serif;
+ }
+ 
+ #logo {
+   color: #0481B2;
+ }
+ 
+ nav {
+   background-color: #0481B2;
+ }
+ 
+ nav ul {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: flex-end;
+   align-content: stretch;
+   align-items: flex-start;
+ }
+ 
+ nav ul li {
+  list-style: none;
+  margin: 0px 5px;
+  padding: 10px; 
+  color: #73D7FF;
+ }
+ 
+ nav ul li:hover {
+ /*   background-color: #efefef; */
+   background-color: #59D0FF;
+   color: #B26B1B;
+ }
+ 
+ #first {
+   margin-left: 0px;
+ }
+ 
+ .active {
+ /*   background-color: #3f3f3f;
+   color: #fff; */
+   background-color: #FFB159;
+   color: #B26B1B;
+ }
+ 
+ nav ul li a {
+   text-decoration: none;
+ }
+ 
+ a{
+     text-decoration: none;
+ }
+ 
+ .banner {
+   background-image: url(../images/nate.jpg);
+   background-size: cover;
+   background-position: center center;
+   height: 400px;
+   margin-bottom: 16px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   align-content: space-between;
+ }
+ 
+ .bannerBtn a {
+   padding: 20px 40px;
+   background-color: #0481B2;
+   color: #FFB159;
+   text-decoration: none;
+   box-shadow: 0px 0px 10px;
+   border-radius: 3px;
+ }
+ 
+ .bannerBtn a:hover {
+   background-color: #59D0FF;
+   color: #B26B1B;
+ }
+ 
+ .bannerBtn {
+   margin-top: 20px;
+ }
+ 
+ .banner {
+   color: #fff;
+ }
+ 
+ .banner h1 {
+   margin-bottom: 5px;
+ }
+ 
+ .banner p {
+   margin-bottom: 20px;
+ }
+
+ul{
+  text-align: left;
+}
+
+
+.container {
+  text-align: center;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1{
+  font-size: 30px;
+}
+
+.hide-desktop {
+  display: none;
+}
+
+#myInput {
+  display: inline-flex;
+  background-image: url('../images/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  font-size: 20px;
+  padding: 12px 40px 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 12px; 
+}
+ 
+.flex-grid {
+  margin: 5em 1em 5em 1em;
+}
+
+.flex-grid div{
+  flex-direction: row;
+}
+
+.grid-titles, .grid-items{
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+border-bottom: 1px solid #29343d;
+border-top:  1px solid #29343d;
+border-radius: 3mm;
+margin-bottom: 1em;
+}
+.grid-titles div, .grid-items div {
+  padding: 10px;
+  flex-basis: 20%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-titles {
+  background-image: linear-gradient(45deg, #cccccc 0%, #0481B2 60%);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.view_details {
+width: 75px;
+}
+
+.hide-mobile {
+  display: none;
+}
+
+footer {
+  background-color: #0481B2;
+  color: #73D7FF;
+  overflow: auto;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+footer ul li {
+  display: inline;
+  border-right: 1px solid;
+  padding: 5px;
+  font-size: 10px;
+}
+
+/* MEDIA QUERIES */
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  
+}
+
+
